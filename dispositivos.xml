@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+    <router id="R1">
+        <hostname>Core-R1</hostname>
+        <location>DataCenter-A</location>
+        <interfaces>
+            <interface name="Gi0/0">
+                <ip>172.16.0.1</ip>
+                <status>up</status>
+            </interface>
+            <interface name="Gi0/1">
+                <ip>172.16.1.1</ip>
+                <status>down</status>
+            </interface>
+        </interfaces>
+    </router>
+</network>
